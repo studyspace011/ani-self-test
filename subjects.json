@@ -1,0 +1,106 @@
+{
+  "विषय": [
+    
+    {
+      "नाम": "MJC-05: American Literature",
+      "विषय_कोड": "MJC-05",
+      "अध्याय": [
+        {"नाम": "1.1 : Tennessee Williams: The Glass Menagerie (Play)", "chapter_name": "Tennessee Williams: The Glass Menagerie (Play)", "csv_path": "subjects/MJC-05/1.1.csv"},
+        {"नाम": "2.1 : Toni Morrison: Beloved (Novel)", "chapter_name": "Toni Morrison: Beloved (Novel)", "csv_path": "subjects/MJC-05/2.1.csv"},
+        {"नाम": "3.1 : Edgar Allan Poe: The Purloined Letter (Short Story)", "chapter_name": "Edgar Allan Poe: The Purloined Letter (Short Story)", "csv_path": "subjects/MJC-05/3.1.csv"},
+        {"नाम": "3.2 : O. Henry: The Last Leaf (Short Story)", "chapter_name": "O. Henry: The Last Leaf (Short Story)", "csv_path": "subjects/MJC-05/3.2.csv"},
+        {"नाम": "3.3 : F. Scott Fitzgerald: The Crack-Up (Essay/Prose)", "chapter_name": "F. Scott Fitzgerald: The Crack-Up (Essay/Prose)", "csv_path": "subjects/MJC-05/3.3.csv"},
+        {"नाम": "3.4 : William Faulkner: Dry September (Short Story)", "chapter_name": "William Faulkner: Dry September (Short Story)", "csv_path": "subjects/MJC-05/3.4.csv"},
+        {"नाम": "4.1 : Anne Bradstreet: The Prologue", "chapter_name": "Anne Bradstreet: The Prologue", "csv_path": "subjects/MJC-05/4.1.csv"},
+        {"नाम": "4.2 : Walt Whitman: O Captain! My Captain!", "chapter_name": "Walt Whitman: O Captain! My Captain!", "csv_path": "subjects/MJC-05/4.2.csv"},
+        {"नाम": "4.3 : Walt Whitman: Passage to India (Lines 1–68)", "chapter_name": "Walt Whitman: Passage to India (Lines 1–68)", "csv_path": "subjects/MJC-05/4.3.csv"},
+        {"नाम": "4.4 : Sherman Alexie: Crow Testament", "chapter_name": "Sherman Alexie: Crow Testament", "csv_path": "subjects/MJC-05/4.4.csv"},
+        {"नाम": "4.5 : Sherman Alexie: Evolution", "chapter_name": "Sherman Alexie: Evolution", "csv_path": "subjects/MJC-05/4.5.csv"},
+        {"नाम": "4.6 : Robert Frost: The Road Not Taken", "chapter_name": "Robert Frost: The Road Not Taken", "csv_path": "subjects/MJC-05/4.6.csv"},
+        {"नाम": "4.7 : Robert Frost: Stopping by Woods on a Snowy Evening", "chapter_name": "Robert Frost: Stopping by Woods on a Snowy Evening", "csv_path": "subjects/MJC-05/4.7.csv"}
+      ]
+    },
+    {
+      "नाम": "MJC-06: Language and Linguistics",
+      "विषय_कोड": "MJC-06",
+      "अध्याय": [
+        {"नाम": "1.1 : Language & Linguistics (Core Concepts)", "chapter_name": "Language & Linguistics (Core Concepts)", "csv_path": "subjects/MJC-06/1.1.csv"},
+        {"नाम": "1.2 : Language Varieties", "chapter_name": "Language Varieties", "csv_path": "subjects/MJC-06/1.2.csv"},
+        {"नाम": "1.3 : Linguistic Dichotomies & Relations", "chapter_name": "Linguistic Dichotomies & Relations", "csv_path": "subjects/MJC-06/1.3.csv"},
+        {"नाम": "2.1 : Sound Units & Speech Organs", "chapter_name": "Sound Units & Speech Organs", "csv_path": "subjects/MJC-06/2.1.csv"},
+        {"नाम": "2.2 : Speech Sound Classification", "chapter_name": "Speech Sound Classification", "csv_path": "subjects/MJC-06/2.2.csv"},
+        {"नाम": "2.3 : Prosody & Syllable Structure", "chapter_name": "Prosody & Syllable Structure", "csv_path": "subjects/MJC-06/2.3.csv"},
+        {"नाम": "3.1 : Basic Units of Word Structure", "chapter_name": "Basic Units of Word Structure", "csv_path": "subjects/MJC-06/3.1.csv"},
+        {"नाम": "3.2 : Types of Morphemes", "chapter_name": "Types of Morphemes", "csv_path": "subjects/MJC-06/3.2.csv"},
+        {"नाम": "3.3 : Word Construction & Processes", "chapter_name": "Word Construction & Processes", "csv_path": "subjects/MJC-06/3.3.csv"},
+        {"नाम": "4.1 : Articulation Drills", "chapter_name": "Articulation Drills", "csv_path": "subjects/MJC-06/4.1.csv"},
+        {"नाम": "4.2 : Prosodic Drills", "chapter_name": "Prosodic Drills", "csv_path": "subjects/MJC-06/4.2.csv"},
+        {"नाम": "4.3 : Transcription Practice", "chapter_name": "Transcription Practice", "csv_path": "subjects/MJC-06/4.3.csv"}
+      ]
+    },
+    {
+      "नाम": "MJC-07: British Poetry and Drama : 17th Century",
+      "विषय_कोड": "MJC-07",
+      "अध्याय": [
+        {"नाम": "1.1 : Paradise Lost: Book 1 (John Milton)", "chapter_name": "Paradise Lost: Book 1 (John Milton)", "csv_path": "subjects/MJC-07/1.1.csv"},
+        {"नाम": "2.1 : The Sunne Rising (John Donne)", "chapter_name": "The Sunne Rising (John Donne)", "csv_path": "subjects/MJC-07/2.1.csv"},
+        {"नाम": "2.2 : The Good Morrow (John Donne)", "chapter_name": "The Good Morrow (John Donne)", "csv_path": "subjects/MJC-07/2.2.csv"},
+        {"नाम": "2.3 : A Hymn to God the Father (John Donne)", "chapter_name": "A Hymn to God the Father (John Donne)", "csv_path": "subjects/MJC-07/2.3.csv"},
+        {"नाम": "2.4 : Death Be Not Proud (John Donne)", "chapter_name": "Death Be Not Proud (John Donne)", "csv_path": "subjects/MJC-07/2.4.csv"},
+        {"नाम": "3.1 : The Alchemist (Ben Jonson)", "chapter_name": "The Alchemist (Ben Jonson)", "csv_path": "subjects/MJC-07/3.1.csv"},
+        {"नाम": "4.1 : Women Beware Women (Thomas Middleton)", "chapter_name": "Women Beware Women (Thomas Middleton)", "csv_path": "subjects/MJC-07/4.1.csv"}
+      ]
+    },
+      {
+      "नाम": "MIC-4: Study of Urdu Ghazal (اردو غزل کا مطالعہ)",
+      "विषय_कोड": "MIC-4",
+      "अध्याय": [
+        {"नाम": "1.1.1 : Urdu Ghazal ki Tareef aur Haisiyat (غزل کی تعریف اور ساخت)", "chapter_name": "Urdu Ghazal ki Tareef aur Haisiyat (غزل کی تعریف اور ساخت)", "csv_path": "subjects/MIC-4/1.1.1.csv"},
+        {"नाम": "1.1.2 : Urdu Ghazal ka Aghaaz-o-Irtiga / Tareekh (غزل کا آغاز و ارتقا / تاریخ)", "chapter_name": "Urdu Ghazal ka Aghaaz-o-Irtiga / Tareekh (غزل کا آغاز و ارتقا / تاریخ)", "csv_path": "subjects/MIC-4/1.1.2.csv"},
+        {"नाम": "1.2.1 : Dabistan-e-Delhi ki Ghazal-goi (دبستانِ دہلی کی غزل گوئی)", "chapter_name": "Dabistan-e-Delhi ki Ghazal-goi (دبستانِ دہلی کی غزل گوئی)", "csv_path": "subjects/MIC-4/1.2.1.csv"},
+        {"नाम": "1.2.2 : Dabistan-e-Lucknow ki Ghazal-goi (دبستانِ لکھنؤ کی غزل گوئی)", "chapter_name": "Dabistan-e-Lucknow ki Ghazal-goi (دبستانِ لکھنؤ کی غزل گوئی)", "csv_path": "subjects/MIC-4/1.2.2.csv"},
+        {"नाम": "2.1.1 : Wali Deccani ki Ghazal: \"Muflisi sab bahar khoti hai\" - Text & Reading", "chapter_name": "Wali Deccani ki Ghazal: \"Muflisi sab bahar khoti hai\" - Text & Reading", "csv_path": "subjects/MIC-4/2.1.1.csv"},
+        {"नाम": "2.1.2 : Wali Deccani: Ghazal ki Tashreeh aur Markazi Khayal", "chapter_name": "Wali Deccani: Ghazal ki Tashreeh aur Markazi Khayal", "csv_path": "subjects/MIC-4/2.1.2.csv"},
+        {"नाम": "2.1.3 : Wali Deccani ke Shairana Ausaf (ولی کے شاعرانہ اوصاف)", "chapter_name": "Wali Deccani ke Shairana Ausaf (ولی کے شاعرانہ اوصاف)", "csv_path": "subjects/MIC-4/2.1.3.csv"},
+        {"नाम": "2.2.1 : Mir ki Ghazal: \"Nazuki us kay lab ki kya kahiye\" - Text & Reading", "chapter_name": "Mir ki Ghazal: \"Nazuki us kay lab ki kya kahiye\" - Text & Reading", "csv_path": "subjects/MIC-4/2.2.1.csv"},
+        {"नाम": "2.2.2 : Mir Taqi Mir: Ghazal ki Tashreeh aur Fanni Mahasin", "chapter_name": "Mir Taqi Mir: Ghazal ki Tashreeh aur Fanni Mahasin", "csv_path": "subjects/MIC-4/2.2.2.csv"},
+        {"नाम": "2.2.3 : Mir Taqi Mir ke Kalam ki Khusoosiyat (میر تقی میر کے کلام کی خصوصیات)", "chapter_name": "Mir Taqi Mir ke Kalam ki Khusoosiyat (میر تقی میر کے کلام کی خصوصیات)", "csv_path": "subjects/MIC-4/2.2.3.csv"},
+        {"नाम": "3.1.1 : Atish ki Ghazal: \"Sun to sahi jahan men hai tera fasana kya\" - Text & Reading", "chapter_name": "Atish ki Ghazal: \"Sun to sahi jahan men hai tera fasana kya\" - Text & Reading", "csv_path": "subjects/MIC-4/3.1.1.csv"},
+        {"नाम": "3.1.2 : Khwaja Haider Ali Atish: Ghazal ki Tashreeh aur Usloob", "chapter_name": "Khwaja Haider Ali Atish: Ghazal ki Tashreeh aur Usloob", "csv_path": "subjects/MIC-4/3.1.2.csv"},
+        {"नाम": "3.1.3 : Atish ki Shayari mein Dabistan-e-Lucknow ke Asraat", "chapter_name": "Atish ki Shayari mein Dabistan-e-Lucknow ke Asraat", "csv_path": "subjects/MIC-4/3.1.3.csv"},
+        {"नाम": "3.2.1 : Shad ki Ghazal: \"Ab bhi ek umr pe jeene ka na andaza aya\" - Text & Reading", "chapter_name": "Shad ki Ghazal: \"Ab bhi ek umr pe jeene ka na andaza aya\" - Text & Reading", "csv_path": "subjects/MIC-4/3.2.1.csv"},
+        {"नाम": "3.2.2 : Shad Azimabadi: Ghazal ki Tashreeh aur Falsafiyana Pehlu", "chapter_name": "Shad Azimabadi: Ghazal ki Tashreeh aur Falsafiyana Pehlu", "csv_path": "subjects/MIC-4/3.2.2.csv"},
+        {"नाम": "3.2.3 : Shad Azimabadi ki Ghazal-goi ki Infradiyat", "chapter_name": "Shad Azimabadi ki Ghazal-goi ki Infradiyat", "csv_path": "subjects/MIC-4/3.2.3.csv"}
+      ]
+    },
+        {
+      "नाम": "AEC-4: समाज सेवा / स्काउट और गाइड / खेल (Social Service/Scout & Guide/Sports)",
+      "विषय_कोड": "AEC-4",
+      "अध्याय": [
+        {"नाम": "1.1 : एनसीसी के लक्ष्य, उद्देश्य और संगठन (Aims, Objectives and Organization)", "chapter_name": "एनसीसी के लक्ष्य, उद्देश्य और संगठन (Aims, Objectives and Organization)", "csv_path": "subjects/AEC-4/1.1.csv"},
+        {"नाम": "1.2 : एनसीसी कैडेटों के लिए प्रोत्साहन/लाभ (Incentives for NCC Cadets)", "chapter_name": "एनसीसी कैडेटों के लिए प्रोत्साहन/लाभ (Incentives for NCC Cadets)", "csv_path": "subjects/AEC-4/1.2.csv"},
+        {"नाम": "1.3 : एनसीसी कैडेटों के कर्तव्य (Duties of NCC Cadets)", "chapter_name": "एनसीसी कैडेटों के कर्तव्य (Duties of NCC Cadets)", "csv_path": "subjects/AEC-4/1.3.csv"},
+        {"नाम": "1.4 : एनसीसी कैंप: प्रकार और संचालन (NCC Camps: Types and Conduct)", "chapter_name": "एनसीसी कैंप: प्रकार और संचालन (NCC Camps: Types and Conduct)", "csv_path": "subjects/AEC-4/1.4.csv"},
+        {"नाम": "2.1 : राष्ट्रीय एकता: महत्व और आवश्यकता (Importance and Necessity)", "chapter_name": "राष्ट्रीय एकता: महत्व और आवश्यकता (Importance and Necessity)", "csv_path": "subjects/AEC-4/2.1.csv"},
+        {"नाम": "2.2 : विविधता में एकता (Unity in Diversity)", "chapter_name": "विविधता में एकता (Unity in Diversity)", "csv_path": "subjects/AEC-4/2.2.csv"},
+        {"नाम": "2.3 : राष्ट्रीय एकता को प्रभावित करने वाले कारक (Factors affecting National Integration)", "chapter_name": "राष्ट्रीय एकता को प्रभावित करने वाले कारक (Factors affecting National Integration)", "csv_path": "subjects/AEC-4/2.3.csv"},
+        {"नाम": "2.4 : राष्ट्रीय सुरक्षा के लिए खतरे (Threats to National Security)", "chapter_name": "राष्ट्रीय सुरक्षा के लिए खतरे (Threats to National Security)", "csv_path": "subjects/AEC-4/2.4.csv"},
+        {"नाम": "3.1 : व्यक्तित्व विकास के कारक (Factors of Personality Development)", "chapter_name": "व्यक्तित्व विकास के कारक (Factors of Personality Development)", "csv_path": "subjects/AEC-4/3.1.csv"},
+        {"नाम": "3.2 : आत्म-जागरूकता और सहानुभूति (Self-Awareness and Empathy)", "chapter_name": "आत्म-जागरूकता और सहानुभूति (Self-Awareness and Empathy)", "csv_path": "subjects/AEC-4/3.2.csv"},
+        {"नाम": "3.3 : आलोचनात्मक और रचनात्मक सोच (Critical and Creative Thinking)", "chapter_name": "आलोचनात्मक और रचनात्मक सोच (Critical and Creative Thinking)", "csv_path": "subjects/AEC-4/3.3.csv"},
+        {"नाम": "3.4 : निर्णय लेना और समस्या समाधान (Decision Making and Problem Solving)", "chapter_name": "निर्णय लेना और समस्या समाधान (Decision Making and Problem Solving)", "csv_path": "subjects/AEC-4/3.4.csv"},
+        {"नाम": "4.1 : समाज सेवा के मूल सिद्धांत (Basics of Social Service)", "chapter_name": "समाज सेवा के मूल सिद्धांत (Basics of Social Service)", "csv_path": "subjects/AEC-4/4.1.csv"},
+        {"नाम": "4.2 : गैर-सरकारी संगठन - एनजीओ (NGO's)", "chapter_name": "गैर-सरकारी संगठन - एनजीओ (NGO's)", "csv_path": "subjects/AEC-4/4.2.csv"},
+        {"नाम": "4.3 : ग्रामीण विकास कार्यक्रम (Rural Development Programmes)", "chapter_name": "ग्रामीण विकास कार्यक्रम (Rural Development Programmes)", "csv_path": "subjects/AEC-4/4.3.csv"},
+        {"नाम": "4.4 : विकास में युवाओं का योगदान (Contribution of Youth)", "chapter_name": "विकास में युवाओं का योगदान (Contribution of Youth)", "csv_path": "subjects/AEC-4/4.4.csv"},
+        {"नाम": "P.1 : ड्रिल (Drill)", "chapter_name": "ड्रिल (Drill)", "csv_path": "subjects/AEC-4/P.1.csv"},
+        {"नाम": "P.2 : फील्ड क्राफ्ट और बैटल क्राफ्ट (Field Craft and Battle Craft)", "chapter_name": "फील्ड क्राफ्ट और बैटल क्राफ्ट (Field Craft and Battle Craft)", "csv_path": "subjects/AEC-4/P.2.csv"},
+        {"नाम": "P.3 : मानचित्र अध्ययन (Map Reading)", "chapter_name": "मानचित्र अध्ययन (Map Reading)", "csv_path": "subjects/AEC-4/P.3.csv"},
+        {"नाम": "P.4 : हथियार प्रशिक्षण (Weapon Training)", "chapter_name": "हथियार प्रशिक्षण (Weapon Training)", "csv_path": "subjects/AEC-4/P.4.csv"},
+        {"नाम": "P.5 : समाज सेवा और सामुदायिक विकास (Social Service and Community Development)", "chapter_name": "समाज सेवा और सामुदायिक विकास (Social Service and Community Development)", "csv_path": "subjects/AEC-4/P.5.csv"},
+        {"नाम": "P.6 : समय-समय पर तय किए गए अन्य अभ्यास (Any other Practical/Practice)", "chapter_name": "समय-समय पर तय किए गए अन्य अभ्यास (Any other Practical/Practice)", "csv_path": "subjects/AEC-4/P.6.csv"}
+      ]
+    }
+  ]
+
+}

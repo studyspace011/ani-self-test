@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ani.. Self MCQ Test App</title>
+    
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Noto+Nastaliq+Urdu:wght@400;700&family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    
+    <!-- Font Awesome Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    
+    <link rel="stylesheet" href="style.css">
+    <link rel="manifest" href="manifest.json">
+    <link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>📝</text></svg>">
+</head>
+<body>
+    <!-- Place this inside .container at the very top -->
+    <div class="theme-toggle-wrapper">
+    <button id="theme-toggle-btn" class="theme-btn" title="Toggle Light/Dark Theme">
+        <i class="fa-solid fa-moon"></i>
+    </button>
+    </div>
+    <div id="home-screen" class="screen active">
+        <div class="container">
+            <h1 id="welcome-message"><i class="fa-solid fa-pen-to-square" style="color: #38bdf8;"></i> Ani.. Self MCQ Test</h1>
+            
+            <div id="name-input-section" class="glass-card input-section">
+                <h3><i class="fa-solid fa-user-astronaut"></i> Welcome! Enter Your Name</h3>
+                <div class="input-group">
+                    <input type="text" id="user-name-input" placeholder="Type your name here..." required>
+                    <button id="set-name-btn" class="primary-btn wide-btn">Let's Go <i class="fa-solid fa-arrow-right"></i></button>
+                </div>
+            </div>
+
+            <div id="test-main-section" class="test-main-section hidden">
+                <div id="status" class="status-badge">
+                    <i class="fa-solid fa-database"></i> Questions Loaded: <span id="question-count">0</span>
+                </div>
+
+                <div id="subject-selection" class="glass-card upload-section animated-section">
+                    <h3><i class="fa-solid fa-book-open"></i> Select Subject & Chapter</h3>
+                    <div class="setting-item">
+                        <label for="subject-select"><i class="fa-solid fa-book"></i> Subject:</label>
+                        <select id="subject-select" required>
+                            <option value="">-- Select Subject --</option>
+                        </select>
+                    </div>
+                    <div class="setting-item">
+                        <label for="chapter-select"><i class="fa-solid fa-file-lines"></i> Chapter:</label>
+                        <select id="chapter-select" disabled required>
+                            <option value="">-- Select Subject First --</option>
+                        </select>
+                    </div>
+                </div>
+
+                <div id="test-setup" class="glass-card test-setup animated-section hidden">
+                    <h3><i class="fa-solid fa-sliders"></i> Test Settings</h3>
+                    
+                    <div class="setting-grid">
+                        <div class="setting-item">
+                            <label for="num-questions"><i class="fa-solid fa-list-ol"></i> Number of Questions:</label>
+                            <input type="number" id="num-questions" min="1" value="10">
+                        </div>
+                        
+                        <div class="setting-item">
+                            <label for="total-time-limit"><i class="fa-solid fa-hourglass-half"></i> Time Limit (in minutes):</label>
+                            <input type="number" id="total-time-limit" min="1" value="30" placeholder="Minutes">
+                        </div>
+                    </div>
+                    
+                    <div class="checkbox-group">
+                        <div class="setting-item checkbox-style">
+                            <input type="checkbox" id="shuffle-questions" checked>
+                            <label for="shuffle-questions"><i class="fa-solid fa-shuffle"></i> Shuffle Questions</label>
+                        </div>
+                        
+                        <div class="setting-item checkbox-style">
+                            <input type="checkbox" id="shuffle-options" checked>
+                            <label for="shuffle-options"><i class="fa-solid fa-random"></i> Shuffle Options</label>
+                        </div>
+                    </div>
+                    
+                    <button id="start-test" class="primary-btn wide-btn"><i class="fa-solid fa-rocket"></i> Start Test</button>
+                </div>
+                
+                <div class="navigation-links">
+                    <button id="view-history" class="secondary-btn"><i class="fa-solid fa-clock-rotate-left"></i> Test History</button>
+                    <button id="view-analytics" class="secondary-btn"><i class="fa-solid fa-chart-line"></i> View Analytics</button>
+                    <button id="install-app-btn" class="success-btn hidden"><i class="fa-solid fa-download"></i> Install App</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div id="test-screen" class="screen">
+        <div class="container">
+            <div class="test-header">
+                <div class="timer"><i class="fa-solid fa-stopwatch"></i> <span id="time-left">00:00</span></div>
+                <div class="progress">
+                    Question <span id="current-question">1</span> / <span id="total-questions">0</span>
+                </div>
+            </div>
+            
+            <div id="question-container" class="glass-card question-container">
+                <h3 id="question-text"></h3>
+                <div id="options-container" class="options-container"></div>
+            </div>
+
+            <div class="test-controls">
+                <button id="prev-btn" class="secondary-btn"><i class="fa-solid fa-chevron-left"></i> Previous</button>
+                <button id="next-btn" class="primary-btn">Next <i class="fa-solid fa-chevron-right"></i></button>
+                <button id="submit-test" class="success-btn hidden"><i class="fa-solid fa-paper-plane"></i> Submit Test</button>
+            </div>
+        </div>
+    </div>
+
+    <div id="results-screen" class="screen">
+        <div class="container">
+            <h2 class="page-title"><i class="fa-solid fa-square-poll-vertical"></i> Test Result</h2>
+            
+            <div class="glass-card result-summary">
+                <div class="score-card">
+                    <h3>Your Marks</h3>
+                    <div class="score"><span id="score">0</span>/<span id="total-score">0</span></div>
+                    <div class="percentage"><span id="percentage">0</span>%</div>
+                </div>
+                
+                <div class="test-info">
+                    <p><strong><i class="fa-solid fa-book"></i> Subject:</strong> <span id="result-subject">-</span></p>
+                    <p><strong><i class="fa-solid fa-file-lines"></i> Chapter:</strong> <span id="result-chapter">-</span></p>
+                    <p><strong><i class="fa-solid fa-clock"></i> Time Taken:</strong> <span id="time-taken">00:00</span></p>
+                </div>
+            </div>
+
+            <div class="glass-card detailed-results">
+                <h3><i class="fa-solid fa-magnifying-glass"></i> Detailed Review</h3>
+                <div id="questions-review" class="questions-review"></div>
+            </div>
+
+            <div class="result-actions">
+                <button id="new-test" class="primary-btn"><i class="fa-solid fa-rotate-right"></i> Start New Test</button>
+                <button id="export-results" class="secondary-btn"><i class="fa-solid fa-file-arrow-down"></i> Download Result</button>
+            </div>
+        </div>
+    </div>
+
+    <div id="history-screen" class="screen">
+        <div class="container">
+            <h2 class="page-title"><i class="fa-solid fa-box-archive"></i> Test History</h2>
+            <div id="history-list" class="history-list"></div>
+            <div class="history-actions">
+                <button id="back-to-home" class="secondary-btn"><i class="fa-solid fa-house"></i> Back to Home</button>
+                <button id="clear-history" class="danger-btn"><i class="fa-solid fa-trash-can"></i> Clear History</button>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        window.renderMath = function() {
+          if (typeof MathJax !== 'undefined' && MathJax.typesetPromise) {
+            MathJax.typesetClear();
+            MathJax.typesetPromise();
+          } else {
+            setTimeout(window.renderMath, 100);
+          }
+        };
+        
+        window.MathJax = {
+          tex: {
+            inlineMath: [['$', '$'], ['\\(', '\\)']],
+            processEscapes: true,
+            processEnvironments: true
+          },
+          options: {
+            skipHtmlTags: ['script', 'noscript', 'style', 'textarea', 'pre', 'code']
+          },
+          startup: {
+            typeset: false,
+            ready: () => {
+              MathJax.startup.defaultReady();
+              window.renderMath();
+            }
+          }
+        };
+    </script>    
+    <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
+    <script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/canvas-confetti@1.5.1/dist/confetti.browser.min.js"></script>
+    <script src="script.js"></script> 
+</body>
+</html>

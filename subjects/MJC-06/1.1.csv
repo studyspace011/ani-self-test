@@ -1,0 +1,51 @@
+id|question|opt1|opt2|opt3|opt4|answer|tags|time_limit_seconds
+1|Who coined the term linguistics?|Ferdinand de Saussure|Noam Chomsky|Leonard Bloomfield|William Whewell|William Whewell|MJC-6_U1_T1.1|30
+2|What is the scientific study of human language called?|Philology|Linguistics|Etymology|Phonetics|Linguistics|MJC-6_U1_T1.1|30
+3|Which property of human language allows users to talk about things distant in time and space?|Arbitrariness|Duality of patterning|Displacement|Productivity|Displacement|MJC-6_U1_T1.1|30
+4|Which linguistic feature describes the absent inherent connection between a word and its meaning?|Productivity|Arbitrariness|Cultural transmission|Displacement|Arbitrariness|MJC-6_U1_T1.1|30
+5|The ability to produce an infinite number of sentences using a finite set of rules is known as|Displacement|Productivity|Duality|Cultural transmission|Productivity|MJC-6_U1_T1.1|30
+6|Which characteristic of language states that it is acquired through a social process rather than inherited genetically?|Duality of patterning|Arbitrariness|Cultural transmission|Displacement|Cultural transmission|MJC-6_U1_T1.1|30
+7|Language operates at two levels simultaneously, sound level and meaning level. This property is known as|Duality of patterning|Displacement|Arbitrariness|Recursion|Duality of patterning|MJC-6_U1_T1.1|30
+8|A regional or social variety of a language distinguished by pronunciation, vocabulary, and grammar is a|Pidgin|Dialect|Creole|Idiolect|Dialect|MJC-6_U1_T1.1|30
+9|The unique, individual linguistic pattern and speech habit of a single person is termed as|Sociolect|Dialect|Idiolect|Accent|Idiolect|MJC-6_U1_T1.1|30
+10|What term refers to a variety of language used in a specific professional, occupational, or social context?|Register|Dialect|Pidgin|Jargon|Register|MJC-6_U1_T1.1|30
+11|A simplified, contact language that develops as a means of communication between speakers who do not share a common language is called a|Creole|Standard language|Pidgin|Dialect|Pidgin|MJC-6_U1_T1.1|30
+12|When a pidgin becomes the native language of a speech community, it evolves into a|Creole|Dialect|Standard language|Idiolect|Creole|MJC-6_U1_T1.1|30
+13|What is the process called by which a pidgin develops into a stable creole?|Standardization|Creolization|Pidginization|Lexicalization|Creolization|MJC-6_U1_T1.1|30
+14|A variety of a language that has undergone codification and is used in formal education, government, and media is called|Standard Language|Creole|Idiolect|Pidgin|Standard Language|MJC-6_U1_T1.1|30
+15|Which linguist introduced the concepts of Synchronic and Diachronic linguistics?|Noam Chomsky|Ferdinand de Saussure|Edward Sapir|Roman Jakobson|Ferdinand de Saussure|MJC-6_U1_T1.1|30
+16|The study of a language at a single, specific point in time without considering its history is|Diachronic linguistics|Synchronic linguistics|Comparative linguistics|Historical linguistics|Synchronic linguistics|MJC-6_U1_T1.1|30
+17|The study of language development and changes through historical time is known as|Synchronic linguistics|Diachronic linguistics|Applied linguistics|Sociolinguistics|Diachronic linguistics|MJC-6_U1_T1.1|30
+18|In Saussurean linguistics, the abstract, systematic rule system of a language shared by a speech community is|Parole|Langue|Signifier|Signified|Langue|MJC-6_U1_T1.1|30
+19|In Saussurean linguistics, the actual concrete concrete act of speaking performed by an individual is|Langue|Parole|Competence|Performance|Parole|MJC-6_U1_T1.1|30
+20|Which concept proposed by Noam Chomsky parallels Saussure's concept of Langue?|Performance|Competence|Parole|Syntagmatic|Competence|MJC-6_U1_T1.1|30
+21|Which concept proposed by Noam Chomsky parallels Saussure's concept of Parole?|Competence|Performance|Langue|Paradigmatic|Performance|MJC-6_U1_T1.1|30
+22|The horizontal relationship between words arranged sequentially in a sentence is known as|Paradigmatic relation|Syntagmatic relation|Diachronic relation|Synchronic relation|Syntagmatic relation|MJC-6_U1_T1.1|30
+23|The vertical relationship of substitution between linguistic elements that can occupy the same structural slot is|Syntagmatic relation|Paradigmatic relation|Diachronic relation|Phonetic relation|Paradigmatic relation|MJC-6_U1_T1.1|30
+24|In semiotics, the linguistic sign consists of two inseparable parts, which are|Langue and Parole|Signifier and Signified|Sound and Letter|Form and Function|Signifier and Signified|MJC-6_U1_T1.1|30
+25|The physical sound-image or written form of a word in Saussurean semiotics is the|Signified|Signifier|Referent|Concept|Signifier|MJC-6_U1_T1.1|30
+26|The mental concept or meaning associated with a linguistic sign in Saussurean semiotics is the|Signifier|Signified|Icon|Symbol|Signified|MJC-6_U1_T1.1|30
+27|Which property allows human language to create new words and expressions continuously?|Displacement|Open-endedness / Openness|Cultural transmission|Duality|Open-endedness / Openness|MJC-6_U1_T1.1|30
+28|What term refers to language variation based on social class, age, gender, or status?|Regional dialect|Sociolect|Idiolect|Pidgin|Sociolect|MJC-6_U1_T1.1|30
+29|What term describes the situation where two distinct varieties of a language are used in different social situations within a single speech community?|Bilingualism|Diglossia|Code-switching|Creolization|Diglossia|MJC-6_U1_T1.1|30
+30|Alternating between two or more languages or language varieties in a single conversation is known as|Pidginization|Code-switching|Creolization|Standardization|Code-switching|MJC-6_U1_T1.1|30
+31|In a syntagmatic relation, words combine along which axis?|Associative axis|Linear / Horizontal axis|Vertical axis|Historical axis|Linear / Horizontal axis|MJC-6_U1_T1.1|30
+32|In a paradigmatic relation, words are linked along which axis?|Linear axis|Associative / Vertical axis|Diachronic axis|Horizontal axis|Associative / Vertical axis|MJC-6_U1_T1.1|30
+33|Which linguistic subfield focuses on the social aspects of language and its usage in communities?|Psycholinguistics|Sociolinguistics|Neurolinguistics|Historical linguistics|Sociolinguistics|MJC-6_U1_T1.1|30
+34|The phenomenon where animal communication sounds imitate natural sounds is known as|Onomatopoeia|Displacement|Recursion|Arbitrariness|Onomatopoeia|MJC-6_U1_T1.1|30
+35|Which language feature allows sentences to be embedded inside other sentences endlessly?|Displacement|Recursion|Arbitrariness|Cultural transmission|Recursion|MJC-6_U1_T1.1|30
+36|A dialect spoken in a specific geographical region is called a|Sociolect|Geolect / Regional dialect|Idiolect|Standard language|Geolect / Regional dialect|MJC-6_U1_T1.1|30
+37|Which aspect of language relates to pronunciation alone without structural differences?|Dialect|Accent|Register|Jargon|Accent|MJC-6_U1_T1.1|30
+38|What is the primary motive behind the creation of a pidgin language?|Literature creation|Trade and practical communication|Poetic expression|Religious ceremonies|Trade and practical communication|MJC-6_U1_T1.1|30
+39|Which term refers to the specialized technical vocabulary of a specific group or field?|Jargon|Argot|Pidgin|Accent|Jargon|MJC-6_U1_T1.1|30
+40|Ferdinand de Saussure's influential lecture notes were posthumously published as|Syntactic Structures|Course in General Linguistics|Aspects of the Theory of Syntax|Language: An Introduction|Course in General Linguistics|MJC-6_U1_T1.1|30
+41|Which landmark book by Noam Chomsky introduced the theory of Transformational-Generative Grammar in 1957?|Course in General Linguistics|Syntactic Structures|The Study of Language|Language and Mind|Syntactic Structures|MJC-6_U1_T1.1|30
+42|The system of rules internalized by a native speaker that allows them to produce grammatical utterances is|Performance|Linguistic Competence|Parole|Creolization|Linguistic Competence|MJC-6_U1_T1.1|30
+43|Which type of linguistics compares two or more languages to establish their historical relationships?|Descriptive linguistics|Comparative / Historical linguistics|Applied linguistics|Synchronic linguistics|Comparative / Historical linguistics|MJC-6_U1_T1.1|30
+44|The process of language shift where a native language dies out completely is known as|Language death|Creolization|Standardization|Pidginization|Language death|MJC-6_U1_T1.1|30
+45|Which variety of language is used in formal writing and public speaking as a norm across a nation?|Idiolect|Standard Language|Pidgin|Slang|Standard Language|MJC-6_U1_T1.1|30
+46|Casual, highly informal words or expressions typical of a particular group are known as|Jargon|Slang|Register|Creole|Slang|MJC-6_U1_T1.1|30
+47|Synchronic linguistics is also known as|Historical linguistics|Descriptive linguistics|Comparative linguistics|Evolutionary linguistics|Descriptive linguistics|MJC-6_U1_T1.1|30
+48|Diachronic linguistics is also commonly called|Descriptive linguistics|Historical linguistics|Structural linguistics|Theoretical linguistics|Historical linguistics|MJC-6_U1_T1.1|30
+49|What term describes the language from which a pidgin gets most of its vocabulary?|Substrate language|Superstrate / Lexifier language|Standard language|Creole language|Superstrate / Lexifier language|MJC-6_U1_T1.1|30
+50|What term describes the native languages that influence the grammatical structure of a pidgin?|Lexifier language|Substrate language|Superstrate language|Standard language|Substrate language|MJC-6_U1_T1.1|30

@@ -1,0 +1,51 @@
+id|question|opt1|opt2|opt3|opt4|answer|tags|time_limit_seconds
+1|What is the essential central unit of speech rhythm and organization in phonology?|Morpheme|Syllable|Phoneme|Word|Syllable|MJC-6_U2_T2.3|30
+2|Which obligatory element must be present in every well-formed syllable nucleus?|Onset|Vowel or syllabic consonant|Coda|Prefix|Vowel or syllabic consonant|MJC-6_U2_T2.3|30
+3|The initial consonant or consonant cluster that precedes the nucleus in a syllable is called the|Coda|Onset|Rhyme|Foot|Onset|MJC-6_U2_T2.3|30
+4|The consonant or group of consonants that follows the syllable nucleus is known as the|Onset|Coda|Apex|Tone|Coda|MJC-6_U2_T2.3|30
+5|In syllable division, the combination of the nucleus and the coda together forms the|Onset|Rhyme (or Rime)|Foot|Base|Rhyme (or Rime)|MJC-6_U2_T2.3|30
+6|A syllable that ends in a vowel and has no coda is classified as an|Open syllable|Closed syllable|Affricate syllable|Heavy coda|Open syllable|MJC-6_U2_T2.3|30
+7|A syllable that ends with one or more consonant sounds (has a coda) is classified as a|Open syllable|Closed syllable|Monophthongal syllable|Free syllable|Closed syllable|MJC-6_U2_T2.3|30
+8|In the monosyllabic word cat /kæt/, what part of the syllable structure does /k/ represent?|Onset|Nucleus|Coda|Rhyme|Onset|MJC-6_U2_T2.3|30
+9|In the word cat /kæt/, what element functions as the coda?|/k/|/æ/|/t/|/æt/|/t/|MJC-6_U2_T2.3|30
+10|Which principle states that consonants between two vowels should be attached to the second syllable as onset if phonotactically permitted?|Maximal Onset Principle|Sonority Sequencing Principle|Stress Clash Rule|Foot Binarity Principle|Maximal Onset Principle|MJC-6_U2_T2.3|30
+11|Which hierarchy governs the natural order of sounds within a syllable based on acoustic loudness?|Sonority Hierarchy|Tone Scale|Pitch Accent Hierarchy|Aspiration Scale|Sonority Hierarchy|MJC-6_U2_T2.3|30
+12|According to the Sonority Hierarchy, which speech sounds possess the highest level of sonority?|Plosives|Fricatives|Vowels|Nasals|Vowels|MJC-6_U2_T2.3|30
+13|According to the Sonority Hierarchy, which speech sounds possess the lowest level of sonority?|Vowels|Approximants|Voiceless plosives|Nasals|Voiceless plosives|MJC-6_U2_T2.3|30
+14|What phonological term describes the rules that govern permitted sequences and combinations of phonemes in a language?|Phonotactics|Morphophonemics|Prosody|Orthography|Phonotactics|MJC-6_U2_T2.3|30
+15|What is the maximum number of consonants that can form an initial onset cluster in English?|Two|Three|Four|Five|Three|MJC-6_U2_T2.3|30
+16|In an English initial three-consonant onset cluster like spray /spreɪ/, the first consonant must always be|/p/|/t/|/s/|/k/|/s/|MJC-6_U2_T2.3|30
+17|What is the maximum number of consonants that can form a final coda cluster in English words like glimpsed /glɪmpst/?|Two|Three|Four|Five|Four|MJC-6_U2_T2.3|30
+18|Consonants such as /l/, /r/, /m/, /n/ that can form a syllable nucleus without a vowel are called|Glides|Syllabic consonants|Obstruents|Affricates|Syllabic consonants|MJC-6_U2_T2.3|30
+19|In the phonetic transcription of button [bʌtn̩], the symbol under [n̩] indicates that it is a|Voiceless consonant|Syllabic consonant|Aspirated consonant|Nasalized vowel|Syllabic consonant|MJC-6_U2_T2.3|30
+20|Which term encompasses suprasegmental features like stress, rhythm, intonation, and pitch?|Morphology|Prosody|Syntax|Phonotactics|Prosody|MJC-6_U2_T2.3|30
+21|Suprasegmental features are speech elements that operate|Below the level of a single sound|Across units larger than a single phoneme segment|Only in written script|Exclusively on vowels|Across units larger than a single phoneme segment|MJC-6_U2_T2.3|30
+22|The relative degree of force or prominence given to a specific syllable in a word is called|Pitch|Stress|Intonation|Juncture|Stress|MJC-6_U2_T2.3|30
+23|Which acoustic factor contributes most prominently to the perception of stress on a syllable?|Higher pitch, longer duration, and greater intensity|Lower volume|Nasal resonance|Vowel shortening|Higher pitch, longer duration, and greater intensity|MJC-6_U2_T2.3|30
+24|In broad phonemic transcription, primary stress is indicated by a vertical mark placed|Below and before the syllable|High before the stressed syllable|After the stressed syllable|Above the vowel symbol|High before the stressed syllable|MJC-6_U2_T2.3|30
+25|In broad phonemic transcription, secondary stress is represented by a vertical mark placed|High before the syllable|Low before the stressed syllable|Under the coda|Above the nucleus|Low before the stressed syllable|MJC-6_U2_T2.3|30
+26|In two-syllable English words, stress placement often distinguishes word class. What is the stress pattern of the noun export?|Stress on second syllable /ɪkˈspɔːt/|Stress on first syllable /ˈekspɔːt/|Equal stress on both syllables|No stress on either syllable|Stress on first syllable /ˈekspɔːt/|MJC-6_U2_T2.3|30
+27|What is the stress pattern of the verb export in English?|Stress on first syllable /ˈekspɔːt/|Stress on second syllable /ɪkˈspɔːt/|Stress on both syllables|Stress on the prefix only|Stress on second syllable /ɪkˈspɔːt/|MJC-6_U2_T2.3|30
+28|What is the primary stress position in the word photograph?|First syllable /ˈfəʊtəɡrɑːf/|Second syllable /fəˈtɒɡrəfi/|Third syllable|No stress|First syllable /ˈfəʊtəɡrɑːf/|MJC-6_U2_T2.3|30
+29|Where does the primary stress shift to in the derived word photography?|First syllable|Second syllable /fəˈtɒɡrəfi/|Third syllable|Fourth syllable|Second syllable /fəˈtɒɡrəfi/|MJC-6_U2_T2.3|30
+30|When suffixes like -ation, -ic, -eer are added to base words, where does primary stress usually land?|On the root syllable|On the suffix or the syllable immediately preceding it|On the first syllable of the prefix|Randomly|On the suffix or the syllable immediately preceding it|MJC-6_U2_T2.3|30
+31|What happens to unstressed vowels in fast conversational English?|They become longer|They get reduced to schwa /ə/ or short /ɪ/|They become diphthongs|They gain high pitch|They get reduced to schwa /ə/ or short /ɪ/|MJC-6_U2_T2.3|30
+32|In English sentence stress, which words typically receive primary stress?|Content words (nouns, main verbs, adjectives)|Function words (prepositions, articles, pronouns)|Auxiliary verbs only|Conjunctions|Content words (nouns, main verbs, adjectives)|MJC-6_U2_T2.3|30
+33|Which of the following is considered a function word that is usually unstressed in connected speech?|Table|Beautiful|The|Run|The|MJC-6_U2_T2.3|30
+34|The melody or pitch variation across a sentence or utterance in speech is called|Intonation|Aspiration|Nasality|Coarticulation|Intonation|MJC-6_U2_T2.3|30
+35|The relative height of the voice determined by the rate of vibration of the vocal cords is|Intensity|Pitch|Duration|Quality|Pitch|MJC-6_U2_T2.3|30
+36|A basic unit of intonation containing one primary tonic syllable is known as an|Tone unit or Tone group|Isogloss|Allomorph|Morpheme|Tone unit or Tone group|MJC-6_U2_T2.3|30
+37|The syllable within a tone unit that carries the main pitch movement (change of tone) is called the|Tonic syllable or Nucleus|Onset|Pre-head|Tail|Tonic syllable or Nucleus|MJC-6_U2_T2.3|30
+38|Which intonation contour is standard for declarative statements and Wh-questions in English?|Rising tone|Falling tone|Fall-rise tone|Rise-fall tone|Falling tone|MJC-6_U2_T2.3|30
+39|Which intonation pattern is commonly used for Yes/No questions in English?|Falling tone|Rising tone|Level tone|Rise-fall tone|Rising tone|MJC-6_U2_T2.3|30
+40|Which intonation pattern expresses doubt, uncertainty, reservation, or politeness in English?|Falling tone|Fall-rise tone|Rise-fall tone|Level tone|Fall-rise tone|MJC-6_U2_T2.3|30
+41|What intonation tone is typical for expressing strong surprise or enthusiasm?|Rise-fall tone|Falling tone|Level tone|Low flat tone|Rise-fall tone|MJC-6_U2_T2.3|30
+42|What rhythmic classification is attributed to English based on the timing of stressed syllables?|Syllable-timed language|Stress-timed language|Mora-timed language|Tone-timed language|Stress-timed language|MJC-6_U2_T2.3|30
+43|In a stress-timed language like English, the duration between stressed syllables tends to be|Variable depending on word count|Roughly equal (isochronous)|Directly proportional to total letter count|Dependent on silent pauses|Roughly equal (isochronous)|MJC-6_U2_T2.3|30
+44|Which of the following languages is classified as a syllable-timed language?|English|French|German|Russian|French|MJC-6_U2_T2.3|30
+45|The metric unit composed of one stressed syllable and any associated unstressed syllables is a|Foot|Rhyme|Morpheme|Tone unit|Foot|MJC-6_U2_T2.3|30
+46|What term describes the weakening of words like "and", "can", "to" in connected speech?|Strong forms|Weak forms|Stress shift|Assimilation|Weak forms|MJC-6_U2_T2.3|30
+47|The pronunciation of the word "and" as /ænd/ when isolated represents its|Weak form|Strong form|Contracted form|Aspirated form|Strong form|MJC-6_U2_T2.3|30
+48|The pronunciation of "and" as /ənd/ or /n/ in "bread and butter" represents its|Strong form|Weak form|Primary stress|Intonation tail|Weak form|MJC-6_U2_T2.3|30
+49|What function of intonation helps distinguish between grammatical structures like statements vs questions?|Attitudinal function|Accentual function|Grammatical function|Discourse function|Grammatical function|MJC-6_U2_T2.3|30
+50|Which function of intonation conveys emotions and speaker attitudes such as boredom, interest, or anger?|Grammatical function|Attitudinal function|Discourse function|Syntactic function|Attitudinal function|MJC-6_U2_T2.3|30

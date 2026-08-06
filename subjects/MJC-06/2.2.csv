@@ -1,0 +1,51 @@
+id|question|opt1|opt2|opt3|opt4|answer|tags|time_limit_seconds
+1|How many pure vowel sounds (monophthongs) are there in Received Pronunciation (R.P.) English?|10|12|8|24|12|MJC-6_U2_T2.2|30
+2|How many total vowel sounds exist in standard Received Pronunciation (R.P.), including diphthongs?|12|15|20|24|20|MJC-6_U2_T2.2|30
+3|How many diphthongs are present in Received Pronunciation (R.P.) English?|5|8|10|12|8|MJC-6_U2_T2.2|30
+4|Which statement accurately defines a diphthong?|A pure single vowel sound|A soft consonant sound|An independent vowel-glide from one vowel position to another|A combination of two consonants|An independent vowel-glide from one vowel position to another|MJC-6_U2_T2.2|30
+5|How many consonant sounds are recognized in standard English phonology?|20|24|26|22|24|MJC-6_U2_T2.2|30
+6|Which of the following parameters is NOT used to classify English vowels?|Height of the tongue|Part of the tongue raised|Lip rounding|Place of articulation|Place of articulation|MJC-6_U2_T2.2|30
+7|Which three criteria are used to classify English consonant sounds?|Place of articulation, Manner of articulation, and Voicing|Length, Pitch, and Stress|Height of tongue, Lip position, and Stress|Voicing, Intonation, and Nasality|Place of articulation, Manner of articulation, and Voicing|MJC-6_U2_T2.2|30
+8|Vowels produced by raising the front part of the tongue towards the hard palate are called|Back vowels|Front vowels|Central vowels|Rounded vowels|Front vowels|MJC-6_U2_T2.2|30
+9|The vowel sound in the word see /iː/ is classified as a|Close front unrounded vowel|Open back rounded vowel|Central unrounded vowel|Close back rounded vowel|Close front unrounded vowel|MJC-6_U2_T2.2|30
+10|The vowel sound /uː/ in the word too is classified as a|Close front unrounded vowel|Close back rounded vowel|Open front unrounded vowel|Central unrounded vowel|Close back rounded vowel|MJC-6_U2_T2.2|30
+11|Which vowel is commonly known as schwa /ə/?|Open front vowel|Mid-central unrounded vowel|Close back rounded vowel|Open back rounded vowel|Mid-central unrounded vowel|MJC-6_U2_T2.2|30
+12|Which category of vowels involves a change in quality during its production?|Monophthongs|Diphthongs|Plosives|Fricatives|Diphthongs|MJC-6_U2_T2.2|30
+13|Diphthongs that glide towards the central vowel /ə/ are known as|Centering diphthongs|Closing diphthongs|Fronting diphthongs|Backing diphthongs|Centering diphthongs|MJC-6_U2_T2.2|30
+14|Diphthongs that glide towards /ɪ/ or /ʊ/ are classified as|Centering diphthongs|Closing diphthongs|Monophthongs|Triphthongs|Closing diphthongs|MJC-6_U2_T2.2|30
+15|Which of the following is an example of a centering diphthong?|/aɪ/|/eɪ/|/ɪə/|/ɔɪ/|/ɪə/|MJC-6_U2_T2.2|30
+16|A combination of three vowel sounds pronounced within a single syllable is called a|Diphthong|Triphthong|Monophthong|Consonantal glide|Triphthong|MJC-6_U2_T2.2|30
+17|Sounds produced by complete closure of the vocal tract followed by a sudden release of air are|Fricatives|Plosives (Stops)|Nasals|Approximants|Plosives (Stops)|MJC-6_U2_T2.2|30
+18|How many plosive (stop) consonants are there in English?|4|6|8|10|6|MJC-6_U2_T2.2|30
+19|Which pair of English consonants represents alveolar plosives?|/p/ and /b/|/t/ and /d/|/k/ and /g/|/f/ and /v/|/t/ and /d/|MJC-6_U2_T2.2|30
+20|Which pair of English consonants represents velar plosives?|/t/ and /d/|/p/ and /b/|/k/ and /g/|/s/ and /z/|/k/ and /g/|MJC-6_U2_T2.2|30
+21|Which pair of English consonants represents bilabial plosives?|/p/ and /b/|/t/ and /d/|/k/ and /g/|/m/ and /n/|/p/ and /b/|MJC-6_U2_T2.2|30
+22|Consonants produced by creating a narrow passage in the vocal tract causing audible friction are|Plosives|Fricatives|Affricates|Nasals|Fricatives|MJC-6_U2_T2.2|30
+23|How many fricative consonants exist in standard English?|6|9|10|12|9|MJC-6_U2_T2.2|30
+24|Which of the following is a labiodental fricative pair in English?|/s/ and /z/|/f/ and /v/|/θ/ and /ð/|/ʃ/ and /ʒ/|/f/ and /v/|MJC-6_U2_T2.2|30
+25|The dental fricative sounds /θ/ and /ð/ are found in which pair of words?|pin / bin|thin / this|cat / mat|sit / zip|thin / this|MJC-6_U2_T2.2|30
+26|Sounds that begin with a complete closure and release slowly with friction are called|Plosives|Affricates|Nasals|Approximants|Affricates|MJC-6_U2_T2.2|30
+27|How many affricate phonemes are present in English phonology?|2|4|6|8|2|MJC-6_U2_T2.2|30
+28|Which pair of sounds represents the English affricates?|/f/ and /v/|/tʃ/ and /dʒ/|/p/ and /b/|/θ/ and /ð/|/tʃ/ and /dʒ/|MJC-6_U2_T2.2|30
+29|Sounds produced with air escaping through the nasal cavity while the oral cavity is blocked are|Fricatives|Nasals|Plosives|Lateral approximants|Nasals|MJC-6_U2_T2.2|30
+30|How many nasal consonants exist in standard English?|2|3|4|5|3|MJC-6_U2_T2.2|30
+31|The three English nasal consonants /m/, /n/, and /ŋ/ are articulated respectively at|Bilabial, Alveolar, and Velar places|Dental, Palatal, and Glottal places|Labiodental, Alveolar, and Velar places|Bilabial, Dental, and Palatal places|Bilabial, Alveolar, and Velar places|MJC-6_U2_T2.2|30
+32|A sound produced when air escapes along the sides of the tongue while the center is blocked is a|Lateral approximant|Nasal|Fricative|Plosive|Lateral approximant|MJC-6_U2_T2.2|30
+33|Which English phoneme is classified as a lateral approximant?|/r/|/l/|/w/|/j/|/l/|MJC-6_U2_T2.2|30
+34|Which sounds are classified as glides or semi-vowels in English consonant phonology?|/m/ and /n/|/w/ and /j/|/f/ and /v/|/p/ and /t/|/w/ and /j/|MJC-6_U2_T2.2|30
+35|The sound /j/ as in yes is phonetically classified as a|Velar approximant|Palatal approximant (glide)|Alveolar fricative|Dental nasal|Palatal approximant (glide)|MJC-6_U2_T2.2|30
+36|The sound /w/ as in wet involves articulation at which two locations?|Both lips and soft palate (Labio-velar)|Upper teeth and lower lip|Tongue blade and alveolar ridge|Glottis and hard palate|Both lips and soft palate (Labio-velar)|MJC-6_U2_T2.2|30
+37|Which of the following is a voiceless glottal fricative?|/h/|/s/|/f/|/θ/|/h/|MJC-6_U2_T2.2|30
+38|What distinguishes voiced consonants from voiceless consonants?|Resonance in the nasal cavity|Vibration of the vocal cords in the larynx|Position of the soft palate|Length of the vowel sound|Vibration of the vocal cords in the larynx|MJC-6_U2_T2.2|30
+39|Which of the following English consonants is voiceless?|/b/|/d/|/p/|/g/|/p/|MJC-6_U2_T2.2|30
+40|Which of the following English consonants is voiced?|/k/|/t/|/s/|/v/|/v/|MJC-6_U2_T2.2|30
+41|Which cardinal vowel chart system was developed by Daniel Jones to classify vowels?|International Cardinal Vowel Diagram|Vocal Tract Scale|Acoustic Pitch Chart|Consonantal Matrix|International Cardinal Vowel Diagram|MJC-6_U2_T2.2|30
+42|Vowels in which the lips are pulled back or neutral are termed|Rounded vowels|Unrounded vowels|Nasalized vowels|Aspirated vowels|Unrounded vowels|MJC-6_U2_T2.2|30
+43|Which of the following is an open back unrounded vowel in R.P. English?|/iː/|/ɑː/|/uː/|/e/|/ɑː/|MJC-6_U2_T2.2|30
+44|All English vowel sounds are phonetically|Voiceless|Voiced|Nasal|Fricative|Voiced|MJC-6_U2_T2.2|30
+45|Which sound classification includes plosives, fricatives, and affricates?|Obstruents|Sonorants|Vowels|Glides|Obstruents|MJC-6_U2_T2.2|30
+46|Which group includes nasals, liquids (/l/, /r/), and glides (/w/, /j/)?|Obstruents|Sonorants|Plosives|Fricatives|Sonorants|MJC-6_U2_T2.2|30
+47|The English consonant sound /ʃ/ in shoe is classified as a|Voiceless post-alveolar fricative|Voiced alveolar plosive|Voiceless velar stop|Voiced dental fricative|Voiceless post-alveolar fricative|MJC-6_U2_T2.2|30
+48|The English consonant sound /ʒ/ in measure is classified as a|Voiced post-alveolar fricative|Voiceless dental fricative|Voiced bilabial nasal|Voiceless palatal affricate|Voiced post-alveolar fricative|MJC-6_U2_T2.2|30
+49|What is the manner of articulation for the English sound /r/ in red?|Post-alveolar approximant|Velar plosive|Dental fricative|Bilabial stop|Post-alveolar approximant|MJC-6_U2_T2.2|30
+50|Which organ position determines whether a speech sound will be oral or nasal?|The position of the velum (soft palate)|The position of the tongue tip|The vibration of the vocal cords|The position of the lower jaw|The position of the velum (soft palate)|MJC-6_U2_T2.2|30

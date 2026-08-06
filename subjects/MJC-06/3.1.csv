@@ -1,0 +1,51 @@
+id|question|opt1|opt2|opt3|opt4|answer|tags|time_limit_seconds
+1|What is the minimal meaningful unit of grammatical structure in a language?|Phone|Morpheme|Syllable|Allophone|Morpheme|MJC-6_U3_T3.1|30
+2|The physical or phonetic realization of a morpheme in actual speech is called a|Morph|Grapheme|Phoneme|Lexeme|Morph|MJC-6_U3_T3.1|30
+3|Positional or phonetic variants of the same morpheme are known as|Allophones|Allomorphs|Homonyms|Synonyms|Allomorphs|MJC-6_U3_T3.1|30
+4|The field of linguistics that studies the internal structure and formation of words is|Syntax|Semantics|Morphology|Pragmatics|Morphology|MJC-6_U3_T3.1|30
+5|Who originally introduced the term morphology in the context of biological science?|Johann Wolfgang von Goethe|Ferdinand de Saussure|Leonard Bloomfield|Noam Chomsky|Johann Wolfgang von Goethe|MJC-6_U3_T3.1|30
+6|In the word cats, the final sound /s/ is a morph that realizes which morpheme?|Plural|Past tense|Possessive|Comparative|Plural|MJC-6_U3_T3.1|30
+7|The three phonetic variants /s/, /z/, and /ɪz/ for the plural morpheme in English are|Allophones|Allomorphs|Free morphemes|Morphs|Allomorphs|MJC-6_U3_T3.1|30
+8|Which allomorph of the plural morpheme appears after the voiceless sound /t/ in cats?|/z/|/ɪz/|/s/|/ən/|/s/|MJC-6_U3_T3.1|30
+9|Which allomorph of the plural morpheme appears after the voiced sound /d/ in dogs?|/s/|/z/|/ɪz/|/ən/|/z/|MJC-6_U3_T3.1|30
+10|Which allomorph of the plural morpheme occurs after sibilants as in buses?|/s/|/z/|/ɪz/|/ə/|/ɪz/|MJC-6_U3_T3.1|30
+11|When two or more morphs represent the same morpheme, they are in|Complementary distribution|Free variation|Syntagmatic alignment|Paradigmatic shift|Complementary distribution|MJC-6_U3_T3.1|30
+12|The irregular plural form oxen uses which historical plural allomorph?|/s/|/z/|/ən/|/ɪz/|/ən/|MJC-6_U3_T3.1|30
+13|The past-tense allomorphs /t/, /d/, and /ɪd/ belong to which English morpheme?|{-ed}|{-ing}|{-s}|{-en}|{-ed}|MJC-6_U3_T3.1|30
+14|Which past-tense allomorph is attached to the verb walked /wɔːkt/?|/d/|/t/|/ɪd/|/əd/|/t/|MJC-6_U3_T3.1|30
+15|Which past-tense allomorph is attached to the verb played /pleɪd/?|/t/|/d/|/ɪd/|/s/|/d/|MJC-6_U3_T3.1|30
+16|Which past-tense allomorph is attached to the verb landed /lændɪd/?|/t/|/d/|/ɪd/|/z/|/ɪd/|MJC-6_U3_T3.1|30
+17|A morpheme that cannot be broken down into smaller grammatical components is|Complex|Minimal|Compound|Derived|Minimal|MJC-6_U3_T3.1|30
+18|What relationship exists between a morph and a morpheme?|A morph is the concrete form while a morpheme is the abstract unit|They are completely unrelated|A morpheme is spoken and a morph is written|A morph is larger than a morpheme|A morph is the concrete form while a morpheme is the abstract unit|MJC-6_U3_T3.1|30
+19|The negative prefix in- changing to im- before /p/ in impossible is an example of|Phonologically conditioned allomorphy|Lexically conditioned allomorphy|Free variation|Suppletion|Phonologically conditioned allomorphy|MJC-6_U3_T3.1|30
+20|The plural form sheep (plural) compared to sheep (singular) is an example of a|Zero allomorph|Prefix|Infix|Suffix|Zero allomorph|MJC-6_U3_T3.1|30
+21|When a morpheme is represented by a complete change of root, as in go/went, it is called|Suppletion|Ablaut|Affixation|Compounding|Suppletion|MJC-6_U3_T3.1|30
+22|The vowel change in sing to sang to show past tense is known as|Suppletion|Ablaut or vowel gradation|Blending|Borrowing|Ablaut or vowel gradation|MJC-6_U3_T3.1|30
+23|Which of the following is a conditioning factor where the choice of allomorph depends on adjacent sounds?|Phonological conditioning|Lexical conditioning|Syntactic conditioning|Semantic conditioning|Phonological conditioning|MJC-6_U3_T3.1|30
+24|The choice of the plural allomorph /-ən/ in oxen is determined by|Phonological rules|Lexical conditioning|Semantic rules|Syntactic agreement|Lexical conditioning|MJC-6_U3_T3.1|30
+25|How many morphemes are in the word unfaithfulness?|2|3|4|5|4|MJC-6_U3_T3.1|30
+26|How many morphemes are present in the word dogs?|1|2|3|4|2|MJC-6_U3_T3.1|30
+27|How many morphemes are in the word rewrite?|1|2|3|4|2|MJC-6_U3_T3.1|30
+28|Which term describes a single morph that represents multiple morphemes simultaneously?|Portmanteau morph|Zero morph|Bound morph|Empty morph|Portmanteau morph|MJC-6_U3_T3.1|30
+29|In French du (meaning of the), a single morph combines de and le. This is an example of a|Zero morph|Portmanteau morph|Free morph|Infix|Portmanteau morph|MJC-6_U3_T3.1|30
+30|A morph that has no inherent meaning or grammatical function but is required by structure is an|Empty morph|Zero morph|Portmanteau morph|Bound morpheme|Empty morph|MJC-6_U3_T3.1|30
+31|What is the root morpheme in the word teacher?|teach|-er|teacher|cheer|teach|MJC-6_U3_T3.1|30
+32|A morpheme that conveys the primary lexical meaning of a word is called the|Root / Base|Prefix|Suffix|Inflection|Root / Base|MJC-6_U3_T3.1|30
+33|Which of the following is true about allomorphs?|They have different meanings|They have the same meaning and grammatical function|They belong to different morphemes|They must be spelled identically|They have the same meaning and grammatical function|MJC-6_U3_T3.1|30
+34|The morpheme {-s} indicating third-person singular present tense in runs is an|Inflectional morpheme|Derivational morpheme|Free morpheme|Root morpheme|Inflectional morpheme|MJC-6_U3_T3.1|30
+35|Which negative prefix allomorph appears before /l/ in illegal?|in-|im-|il-|ir-|il-|MJC-6_U3_T3.1|30
+36|Which negative prefix allomorph appears before /r/ in irregular?|in-|im-|il-|ir-|ir-|MJC-6_U3_T3.1|30
+37|The underlying abstract linguistic entity stored in the mental lexicon is the|Morph|Morpheme|Allophone|Syllable|Morpheme|MJC-6_U3_T3.1|30
+38|Can a single word consist of only one morpheme?|No|Yes, such as cat or run|Only in foreign languages|Only if it is an acronym|Yes, such as cat or run|MJC-6_U3_T3.1|30
+39|In morphology, the core element to which affixes are attached is the|Stem or Base|Coda|Onset|Allomorph|Stem or Base|MJC-6_U3_T3.1|30
+40|The change from foot to feet for pluralization is an example of|Infixation|Internal vowel change (Replacive morph)|Suppletion|Prefixation|Internal vowel change (Replacive morph)|MJC-6_U3_T3.1|30
+41|Which distribution pattern applies when two variants occur in exactly the same environment without changing meaning?|Complementary distribution|Free variation|Phonological conditioning|Lexical conditioning|Free variation|MJC-6_U3_T3.1|30
+42|The alternative pronunciations of the prefix anti- as /ænti/ or /æntaɪ/ represent|Complementary distribution|Free variation|Suppletion|Ablaut|Free variation|MJC-6_U3_T3.1|30
+43|Which morph is represented by an absence of any phonetic realization?|Zero morph|Empty morph|Portmanteau morph|Bound morph|Zero morph|MJC-6_U3_T3.1|30
+44|How many morphemes are in the word unhappiness?|1|2|3|4|3|MJC-6_U3_T3.1|30
+45|In the word disagreement, what is the prefix morpheme?|dis-|agree|-ment|disagree|dis-|MJC-6_U3_T3.1|30
+46|In the word disagreement, what is the suffix morpheme?|dis-|agree|-ment|ment| -ment|MJC-6_U3_T3.1|30
+47|What type of conditioning explains why the plural of child is children?|Phonological conditioning|Lexical conditioning|Syntactic conditioning|Free variation|Lexical conditioning|MJC-6_U3_T3.1|30
+48|Which unit belongs to the level of grammar/syntax while morph belongs to phonology/speech?|Phoneme|Morpheme|Grapheme|Syllable|Morpheme|MJC-6_U3_T3.1|30
+49|How many morphemes are present in the word acted?|1|2|3|4|2|MJC-6_U3_T3.1|30
+50|The morphs /ɪn-/, /ɪm-/, /ɪl-/, /ɪr-/ all belong to which abstract morpheme?|Negative prefix {in-}|Plural prefix {s-}|Past tense suffix {-ed}|Superlative suffix {-est}|Negative prefix {in-}|MJC-6_U3_T3.1|30
