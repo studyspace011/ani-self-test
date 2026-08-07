@@ -304,14 +304,14 @@ select option {
 
 .score {
     font-size: 2rem;
-    color: #94a3b8;
+    color: #737b87;
     margin: 10px 0;
 }
 
 .score span:first-child {
     font-size: 2.8rem;
     font-weight: 700;
-    color: #f8fafc;
+    color: #6f7c8a;
 }
 
 .percentage {
