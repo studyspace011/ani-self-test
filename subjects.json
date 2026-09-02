@@ -75,7 +75,7 @@
     },
         {
       "नाम": "AEC-4: समाज सेवा / स्काउट और गाइड / खेल (Social Service/Scout & Guide/Sports)",
-      "विषय_कोड": "AEC-04",
+      "विषय_कोड": "AEC-44",
       "अध्याय": [
         {"नाम": "1.1 : एनसीसी के लक्ष्य, उद्देश्य और संगठन (Aims, Objectives and Organization)", "chapter_name": "एनसीसी के लक्ष्य, उद्देश्य और संगठन (Aims, Objectives and Organization)", "csv_path": "subjects/AEC-4/1.1.csv"},
         {"नाम": "1.2 : एनसीसी कैडेटों के लिए प्रोत्साहन/लाभ (Incentives for NCC Cadets)", "chapter_name": "एनसीसी कैडेटों के लिए प्रोत्साहन/लाभ (Incentives for NCC Cadets)", "csv_path": "subjects/AEC-4/1.2.csv"},
