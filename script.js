@@ -71,7 +71,6 @@ class MCQTestApp {
             history: document.getElementById('history-screen')
         };
         this.welcomeMessage = document.getElementById('welcome-message');
-        this.savedNameLabel = document.getElementById('saved-name-label');
         this.nameInputSection = document.getElementById('name-input-section');
         this.userNameInput = document.getElementById('user-name-input');
         this.setNameBtn = document.getElementById('set-name-btn');
@@ -173,17 +172,14 @@ class MCQTestApp {
 
         if (this.userName) {
             this.userNameInput.value = this.userName;
-            this.savedNameLabel.textContent = this.userName;
         }
     }
 
     updateWelcomeMessage() {
         if (this.userName) {
             this.welcomeMessage.innerHTML = `<i class="fa-solid fa-hand-wave" style="color: #f59e0b;"></i> Hlw, <span style="color: #671010d1;">${this.userName}</span>`;
-            this.savedNameLabel.textContent = this.userName;
         } else {
-            this.welcomeMessage.innerHTML = `<i class="fa-solid fa-pen-to-square" style="color: #38bdf8;"></i> Welcome, Student`;
-            if (this.savedNameLabel) this.savedNameLabel.textContent = '-';
+            this.welcomeMessage.innerHTML = `<i class="fa-solid fa-pen-to-square" style="color: #38bdf8;"></i> Welcome`;
         }
     }
 
