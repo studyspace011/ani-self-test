@@ -1,5 +1,6 @@
 // sw.js
-const CACHE_NAME = '3rd-sem-mcq-cache-v1'; // सुनिश्चित करें कि यह नाम यूनिक है
+const CACHE_NAME = '3rd-sem-mcq-cache-v2'; // Ensure the cache key changes so the new AEC-04 paths are picked up
+self.skipWaiting();
 
 // ✅ सही URLs बिना शुरू वाले स्लैश के
 const urlsToCache = [
@@ -68,28 +69,28 @@ const urlsToCache = [
   './subjects/MIC-4/3.2.3.csv',
 
   // AEC-4
-  './subjects/AEC-4/1.1.csv',
-  './subjects/AEC-4/1.2.csv',
-  './subjects/AEC-4/1.3.csv',
-  './subjects/AEC-4/1.4.csv',
-  './subjects/AEC-4/2.1.csv',
-  './subjects/AEC-4/2.2.csv',
-  './subjects/AEC-4/2.3.csv',
-  './subjects/AEC-4/2.4.csv',
-  './subjects/AEC-4/3.1.csv',
-  './subjects/AEC-4/3.2.csv',
-  './subjects/AEC-4/3.3.csv',
-  './subjects/AEC-4/3.4.csv',
-  './subjects/AEC-4/4.1.csv',
-  './subjects/AEC-4/4.2.csv',
-  './subjects/AEC-4/4.3.csv',
-  './subjects/AEC-4/4.4.csv',
-  './subjects/AEC-4/P.1.csv',
-  './subjects/AEC-4/P.2.csv',
-  './subjects/AEC-4/P.3.csv',
-  './subjects/AEC-4/P.4.csv',
-  './subjects/AEC-4/P.5.csv',
-  './subjects/AEC-4/P.6.csv'
+  './subjects/AEC-04/1.1.csv',
+  './subjects/AEC-04/1.2.csv',
+  './subjects/AEC-04/1.3.csv',
+  './subjects/AEC-04/1.4.csv',
+  './subjects/AEC-04/2.1.csv',
+  './subjects/AEC-04/2.2.csv',
+  './subjects/AEC-04/2.3.csv',
+  './subjects/AEC-04/2.4.csv',
+  './subjects/AEC-04/3.1.csv',
+  './subjects/AEC-04/3.2.csv',
+  './subjects/AEC-04/3.3.csv',
+  './subjects/AEC-04/3.4.csv',
+  './subjects/AEC-04/4.1.csv',
+  './subjects/AEC-04/4.2.csv',
+  './subjects/AEC-04/4.3.csv',
+  './subjects/AEC-04/4.4.csv',
+  './subjects/AEC-04/P.1.csv',
+  './subjects/AEC-04/P.2.csv',
+  './subjects/AEC-04/P.3.csv',
+  './subjects/AEC-04/P.4.csv',
+  './subjects/AEC-04/P.5.csv',
+  './subjects/AEC-04/P.6.csv'
 ];
 
 self.addEventListener('install', (event) => {

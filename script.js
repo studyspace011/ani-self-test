@@ -239,24 +239,46 @@ class MCQTestApp {
         }
     }
 
+    resolveCsvPath(csvPath) {
+        if (!csvPath) return [];
+
+        const candidates = new Set([csvPath]);
+        if (csvPath.includes('AEC-4')) {
+            candidates.add(csvPath.replace(/AEC-4/gi, 'AEC-04'));
+        }
+        if (csvPath.includes('AEC-04')) {
+            candidates.add(csvPath.replace(/AEC-04/gi, 'AEC-4'));
+        }
+
+        return [...candidates];
+    }
+
     async handleChapterChange() {
         const csvPath = this.chapterSelect.value;
         if (!csvPath) return;
 
-        try {
-            const response = await fetch(`${csvPath}?v=${new Date().getTime()}`);
-            if (!response.ok) throw new Error('CSV file not found.');
-            const csvText = await response.text();
-            this.parseCSV(csvText);
+        const candidatePaths = this.resolveCsvPath(csvPath);
+        let lastError = null;
 
-            this.subjectName = this.subjectSelect.value;
-            this.chapterName = this.chapterSelect.options[this.chapterSelect.selectedIndex].text;
+        for (const path of candidatePaths) {
+            try {
+                const response = await fetch(`${path}?v=${new Date().getTime()}`);
+                if (!response.ok) throw new Error('CSV file not found.');
+                const csvText = await response.text();
+                this.parseCSV(csvText);
 
-            this.updateQuestionCount();
-            this.testSetup.classList.remove('hidden');
-        } catch (error) {
-            alert('Error loading questions: ' + error.message);
+                this.subjectName = this.subjectSelect.value;
+                this.chapterName = this.chapterSelect.options[this.chapterSelect.selectedIndex].text;
+
+                this.updateQuestionCount();
+                this.testSetup.classList.remove('hidden');
+                return;
+            } catch (error) {
+                lastError = error;
+            }
         }
+
+        alert('Error loading questions: ' + (lastError ? lastError.message : 'Unknown error'));
     }
 
     parseCSV(csvText) {
