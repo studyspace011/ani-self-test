@@ -18,15 +18,21 @@
     <link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>📝</text></svg>">
 </head>
 <body>
-    <!-- Place this inside .container at the very top -->
-    <div class="theme-toggle-wrapper">
-    <button id="theme-toggle-btn" class="theme-btn" title="Toggle Light/Dark Theme">
-        <i class="fa-solid fa-moon"></i>
-    </button>
+    <div class="top-bar">
+        <div class="creator-tag">Created by <span>@Vaid (Silent Batchmate)</span></div>
+        <div class="top-actions">
+            <button id="theme-toggle-btn" class="theme-btn" title="Toggle Light/Dark Theme">
+                <i class="fa-solid fa-moon"></i>
+            </button>
+        </div>
     </div>
+
     <div id="home-screen" class="screen active">
-        <div class="container">
-            <h1 id="welcome-message"><i class="fa-solid fa-pen-to-square" style="color: #38bdf8;"></i> Ani.. Self MCQ Test</h1>
+        <div class="container home-shell">
+            <div class="brand-block">
+                <div class="brand-badge"><i class="fa-solid fa-brain"></i> Ani.. Self MCQ Test</div>
+                <h1 id="welcome-message"><i class="fa-solid fa-pen-to-square" style="color: #38bdf8;"></i> Welcome, Student</h1>
+            </div>
             
             <div id="name-input-section" class="glass-card input-section">
                 <h3><i class="fa-solid fa-user-astronaut"></i> Welcome! Enter Your Name</h3>
@@ -37,6 +43,13 @@
             </div>
 
             <div id="test-main-section" class="test-main-section hidden">
+                <div class="profile-card glass-card">
+                    <div class="profile-meta">
+                        <span class="profile-label">Student</span>
+                        <strong id="saved-name-label">-</strong>
+                    </div>
+                    <button id="edit-name-btn" class="secondary-btn small-btn"><i class="fa-solid fa-pen"></i> Edit Name</button>
+                </div>
                 <div id="status" class="status-badge">
                     <i class="fa-solid fa-database"></i> Questions Loaded: <span id="question-count">0</span>
                 </div>
@@ -90,6 +103,8 @@
                 <div class="navigation-links">
                     <button id="view-history" class="secondary-btn"><i class="fa-solid fa-clock-rotate-left"></i> Test History</button>
                     <button id="view-analytics" class="secondary-btn"><i class="fa-solid fa-chart-line"></i> View Analytics</button>
+                    <button id="whatsapp-channel-btn" class="secondary-btn whatsapp-btn" onclick="window.open('https://whatsapp.com/channel/0029VajiRmkFi8xmRZUzly0I', '_blank')"><i class="fa-brands fa-whatsapp"></i> WhatsApp Channel</button>
+                    <button id="study-resources-btn" class="success-btn" onclick="window.open('https://studyspace011.github.io/ani-personal-dashboard/', '_blank')"><i class="fa-solid fa-book-open-reader"></i> Study Resources</button>
                     <button id="install-app-btn" class="success-btn hidden"><i class="fa-solid fa-download"></i> Install App</button>
                 </div>
             </div>

@@ -71,9 +71,11 @@ class MCQTestApp {
             history: document.getElementById('history-screen')
         };
         this.welcomeMessage = document.getElementById('welcome-message');
+        this.savedNameLabel = document.getElementById('saved-name-label');
         this.nameInputSection = document.getElementById('name-input-section');
         this.userNameInput = document.getElementById('user-name-input');
         this.setNameBtn = document.getElementById('set-name-btn');
+        this.editNameBtn = document.getElementById('edit-name-btn');
         this.testMainSection = document.getElementById('test-main-section');
         this.subjectSelect = document.getElementById('subject-select');
         this.chapterSelect = document.getElementById('chapter-select');
@@ -112,6 +114,7 @@ class MCQTestApp {
 
     bindEvents() {
         this.setNameBtn.addEventListener('click', () => this.setUserName());
+        this.editNameBtn?.addEventListener('click', () => this.showNameEditor());
         this.userNameInput.addEventListener('keypress', (e) => { if (e.key === 'Enter') this.setUserName(); });
         this.subjectSelect.addEventListener('change', () => this.handleSubjectChange());
         this.chapterSelect.addEventListener('change', () => this.handleChapterChange());
@@ -153,33 +156,51 @@ class MCQTestApp {
 
     setUserName() {
         const name = this.userNameInput.value.trim();
-        if (name) {
-            this.userName = name;
-            this.setStorageItem('user_name', name);
-            this.updateWelcomeMessage();
-            this.nameInputSection.classList.add('hidden');
-            this.testMainSection.classList.remove('hidden');
-        } else {
+        if (!name) {
             alert('Please enter your name.');
+            this.userNameInput.focus();
+            return;
+        }
+
+        this.userName = name;
+        this.setStorageItem('user_name', name);
+        this.updateWelcomeMessage();
+        this.applyUserState();
+    }
+
+    showNameEditor() {
+        this.nameInputSection.classList.remove('hidden');
+        this.testMainSection.classList.add('hidden');
+        this.userNameInput.value = this.userName || '';
+        this.userNameInput.focus();
+        this.userNameInput.select();
+    }
+
+    applyUserState() {
+        const hasName = !!this.userName;
+        this.nameInputSection.classList.toggle('hidden', hasName);
+        this.testMainSection.classList.toggle('hidden', !hasName);
+
+        if (this.userName) {
+            this.userNameInput.value = this.userName;
+            this.savedNameLabel.textContent = this.userName;
         }
     }
 
     updateWelcomeMessage() {
         if (this.userName) {
             this.welcomeMessage.innerHTML = `<i class="fa-solid fa-hand-wave" style="color: #f59e0b;"></i> Hlw, <span style="color: #671010d1;">${this.userName}</span>`;
+            this.savedNameLabel.textContent = this.userName;
         } else {
-            this.welcomeMessage.innerHTML = `<i class="fa-solid fa-pen-to-square" style="color: #38bdf8;"></i> Ani.. Self MCQ Test`;
+            this.welcomeMessage.innerHTML = `<i class="fa-solid fa-pen-to-square" style="color: #38bdf8;"></i> Welcome, Student`;
+            if (this.savedNameLabel) this.savedNameLabel.textContent = '-';
         }
     }
 
     async loadInitialData() {
         this.userName = this.getStorageItem('user_name') || '';
         this.updateWelcomeMessage();
-
-        if (this.userName) {
-            this.nameInputSection.classList.add('hidden');
-            this.testMainSection.classList.remove('hidden');
-        }
+        this.applyUserState();
 
         try {
             const response = await fetch('subjects.json');
