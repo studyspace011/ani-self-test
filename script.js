@@ -75,7 +75,6 @@ class MCQTestApp {
         this.nameInputSection = document.getElementById('name-input-section');
         this.userNameInput = document.getElementById('user-name-input');
         this.setNameBtn = document.getElementById('set-name-btn');
-        this.editNameBtn = document.getElementById('edit-name-btn');
         this.testMainSection = document.getElementById('test-main-section');
         this.subjectSelect = document.getElementById('subject-select');
         this.chapterSelect = document.getElementById('chapter-select');
@@ -114,7 +113,6 @@ class MCQTestApp {
 
     bindEvents() {
         this.setNameBtn.addEventListener('click', () => this.setUserName());
-        this.editNameBtn?.addEventListener('click', () => this.showNameEditor());
         this.userNameInput.addEventListener('keypress', (e) => { if (e.key === 'Enter') this.setUserName(); });
         this.subjectSelect.addEventListener('change', () => this.handleSubjectChange());
         this.chapterSelect.addEventListener('change', () => this.handleChapterChange());
@@ -166,14 +164,6 @@ class MCQTestApp {
         this.setStorageItem('user_name', name);
         this.updateWelcomeMessage();
         this.applyUserState();
-    }
-
-    showNameEditor() {
-        this.nameInputSection.classList.remove('hidden');
-        this.testMainSection.classList.add('hidden');
-        this.userNameInput.value = this.userName || '';
-        this.userNameInput.focus();
-        this.userNameInput.select();
     }
 
     applyUserState() {
